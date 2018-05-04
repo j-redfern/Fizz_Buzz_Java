@@ -17,7 +17,7 @@ public class Main {
         boolean Validate = fizzBuzz.ValidateDataType(line);
 
         if(Validate) {
-            fizzBuzz.PrintNumbers(Integer.parseInt(line));
+            fizzBuzz.PrintsFizzBuzz(Integer.parseInt(line));
             System.exit(0);
         } else {
             System.out.print("Invalid input");

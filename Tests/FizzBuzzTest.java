@@ -27,6 +27,15 @@ class FizzBuzzTest {
         assertEquals(new Integer (5), list.get(4));
 
     }
-
+    @Test
+    void PrintFizzBuzz(){
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        ArrayList<String> list = fizzBuzz.PrintsFizzBuzz(16);
+        assertEquals(new String("1"),list.get(0));
+        assertEquals(new String("Fizz"),list.get(2));
+        assertEquals(new String("4"),list.get(3));
+        assertEquals(new String("Buzz"),list.get(4));
+        assertEquals(new String("FizzBuzz"),list.get(14));
+    }
 
 }
